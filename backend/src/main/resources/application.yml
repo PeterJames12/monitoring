@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-217-212-8.eu-west-1.compute.amazonaws.com:5432/d8ep9ch8pcl1be?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&
+    #url: jdbc:postgresql://localhost:5432/test_NC_db_2?user=postgres&password=password
+    tomcat:
+      max-active: 5
+      max-idle: 5
+logging:
+  level:
+    com:
+      monitoring: debug
